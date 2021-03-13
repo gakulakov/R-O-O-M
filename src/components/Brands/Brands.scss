@@ -1,0 +1,39 @@
+.brands {
+  max-width: 1240px;
+  margin: 0 auto;
+  margin-bottom: 190px;
+
+  &__text {
+    margin-bottom: 125px;
+    p {
+      text-align: center;
+      margin: 0;
+
+      &:first-child {
+        color: #1A1A1A;
+        font-weight: normal;
+        font-size: 48px;
+      }
+
+      &:last-child {
+        color: #4A4A4A;
+        font-weight: normal;
+        font-size: 24px;
+
+        margin-top: 27px;
+      }
+    }
+  }
+
+  &__logos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    justify-content: center;
+  }
+
+  &__inner {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+  }
+}

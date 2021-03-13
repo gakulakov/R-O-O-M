@@ -1,0 +1,34 @@
+.about-container {
+  max-width: 1372px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  &__info {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 0 63px;
+    p {
+      margin: 48px 0;
+      padding: 0 55px;
+
+      &:first-child {
+        max-width: 355px;
+        color: #1A1A1A;
+        font-weight: normal;
+        font-size: 48px;
+        line-height: 58px;
+      }
+      &:last-child {
+        max-width: 570px;
+        color: #AAAAAA;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 40px;
+      }
+    }
+  }
+}

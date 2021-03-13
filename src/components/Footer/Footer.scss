@@ -1,0 +1,121 @@
+.footer-container {
+  background: #2B2B2B;
+  background-size: 100%;
+  color: #fff;
+  position: relative;
+
+  &__to-top {
+    position: absolute;
+    bottom: 100px;
+    right: 0;
+    transform: rotate(270deg);
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  p {
+    margin-top: 0;
+  }
+}
+
+.footer {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding-top: 97px;
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr 3fr;
+  justify-content: center;
+
+  &__more-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+
+    ul {
+      margin: 0;
+      padding: 0;
+
+      li {
+        list-style: none;
+        margin-bottom: 4px;
+        cursor: pointer;
+        transition: all 0.5s ease;
+        &:hover {
+          color: #46856E;
+        }
+      }
+    }
+
+  }
+
+  &__list {
+      margin-bottom: 25px;
+
+  }
+
+  &__subscribe {
+    textarea {
+      background: #2B2B2B;
+      border-radius: 3px;
+      resize: none;
+      color: #fff;
+      width: 100%;
+      height: 54px;
+      margin-bottom: 16px;
+      outline: none;
+    }
+
+    p {
+      &:nth-child(1) {
+        margin-bottom: 17px;
+      }
+      &:nth-child(2) {
+        margin-bottom: 30px;
+      }
+      &:nth-child(4) {
+        margin-bottom: 56px;
+        text-align: right;
+        color: rgba(255, 255, 255, 0.5);
+      }
+    }
+
+  }
+
+  &__success {
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+    i {
+      width: 25px;
+      height: 25px;
+      border: 1px solid rgba(255, 255, 255, 0.5);
+      background: #2B2B2B;
+      position: absolute;
+      left: -45px;
+      cursor: pointer;
+    }
+
+    p {
+      margin: 0;
+      color: rgba(255, 255, 255, 0.5);
+      font-size: 11px;
+      line-height: 13px;
+      letter-spacing: 2.4px;
+      text-transform: uppercase;
+    }
+  }
+
+  &__sign-up {
+    text-align: right;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+
+  &__logos {
+    img {
+      //display: flex;
+      margin-right: 12px;
+      cursor: pointer;
+    }
+  }
+}

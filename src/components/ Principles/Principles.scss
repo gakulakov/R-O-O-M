@@ -1,0 +1,55 @@
+.principles {
+  max-width: 1240px;
+  margin: 0 auto;
+  margin-bottom: 240px;
+  &__text {
+    p {
+      &:first-child {
+        font-weight: normal;
+        font-size: 48px;
+        line-height: 56px;
+
+        color: #1A1A1A;
+      }
+      &:last-child {
+        color: #46856E;
+        font-weight: normal;
+        font-size: 14px;
+        cursor: pointer;
+      }
+    }
+  }
+
+  &__bot {
+    margin-top: 43px;
+    display: flex;
+    justify-content: space-between;
+  }
+ &__card {
+   margin-right: 40px;
+   text-align: center;
+   &:last-child {
+     margin-right: 0;
+   }
+ }
+
+  &__card-text {
+    p {
+      margin: 0;
+      text-align: left;
+      &:first-child {
+        margin-top: 26px;
+        color: #1A1A1A;
+        font-weight: normal;
+        font-size: 24px;
+      }
+      &:last-child {
+        margin-top: 18px;
+        color: #AAAAAA;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+      }
+    }
+  }
+}
