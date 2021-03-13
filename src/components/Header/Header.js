@@ -4,7 +4,7 @@ import {Logo} from "../../templates/Logo/Logo";
 
 export const Header = () => {
     return (
-        <div className={'header-container'}>
+        <div className={'header-container'} id={'header'}>
             <div className={'topper'}>
                 <p>Contact Sales</p>
                 <p>TEL 646-791-3726</p>

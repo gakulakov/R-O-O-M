@@ -77,7 +77,7 @@ export const Footer = () => {
                     <p className={'footer__sign-up'}>Sign Up</p>
                 </div>
             </div>
-            <a href={'#'} className={'footer-container__to-top'}>Return to the top</a>
+            <a href={'#header'} className={'footer-container__to-top'}>Return to the top</a>
         </div>
     )
 }
