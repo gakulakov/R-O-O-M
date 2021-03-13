@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/R-O-O-M/static/css/main.96b0a779.chunk.css",
+    "main.js": "/R-O-O-M/static/js/main.12a9bbab.chunk.js",
+    "main.js.map": "/R-O-O-M/static/js/main.12a9bbab.chunk.js.map",
+    "runtime-main.js": "/R-O-O-M/static/js/runtime-main.e205ccf2.js",
+    "runtime-main.js.map": "/R-O-O-M/static/js/runtime-main.e205ccf2.js.map",
+    "static/css/2.de1c8048.chunk.css": "/R-O-O-M/static/css/2.de1c8048.chunk.css",
+    "static/js/2.0ddd1b31.chunk.js": "/R-O-O-M/static/js/2.0ddd1b31.chunk.js",
+    "static/js/2.0ddd1b31.chunk.js.map": "/R-O-O-M/static/js/2.0ddd1b31.chunk.js.map",
+    "index.html": "/R-O-O-M/index.html",
+    "static/css/2.de1c8048.chunk.css.map": "/R-O-O-M/static/css/2.de1c8048.chunk.css.map",
+    "static/css/main.96b0a779.chunk.css.map": "/R-O-O-M/static/css/main.96b0a779.chunk.css.map",
+    "static/js/2.0ddd1b31.chunk.js.LICENSE.txt": "/R-O-O-M/static/js/2.0ddd1b31.chunk.js.LICENSE.txt",
+    "static/media/Reviews.scss": "/R-O-O-M/static/media/reviews.162e4160.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e205ccf2.js",
+    "static/css/2.de1c8048.chunk.css",
+    "static/js/2.0ddd1b31.chunk.js",
+    "static/css/main.96b0a779.chunk.css",
+    "static/js/main.12a9bbab.chunk.js"
+  ]
+}
